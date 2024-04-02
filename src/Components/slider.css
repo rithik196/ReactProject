@@ -1,0 +1,29 @@
+.sliderdiv{
+    background-color: whitesmoke;
+    border-radius: 39px;
+    height: 20vh;
+    padding: 10px 10px;
+    margin-top: 0px;
+    padding-left: 46px;
+}
+
+
+.sliderdiv>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp-slide{
+    width: 17vw;
+    height: 6px;
+    color: black !important;
+
+}
+.inp-field{
+
+    margin-left: 10px;
+    width: 11vw;
+    height: 29px;
+    border-radius: 10px;
+    border: 1px solid #afafaf;
+}

@@ -1,0 +1,80 @@
+/* .root {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+ 
+  .stepperContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .stepper {
+    width: 100%;
+  }
+  
+  .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .MuiStepConnector-alternativeLabel .MuiStepConnector-line {
+    height: 2px; 
+    border-color: #ccc; 
+  }
+  
+  .MuiStepIcon-root {
+    width: 30px; 
+    height: 30px; 
+  }
+  
+  
+  .MuiStepIcon-active {
+    color: orange; 
+  }
+  
+  .MuiStepIcon-completed {
+    color: orange; 
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: grey; 
+    margin: 10px 0; 
+  }
+  
+  .circle.active {
+    background-color: orange; 
+  }
+  
+  .circle.filled {
+    background-color: orange; 
+  }
+
+  .checkIcon {
+    width: 37px !important;
+    height: 37px !important;
+    margin: auto !important;
+    color: white;
+  }
+    */

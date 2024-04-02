@@ -1,0 +1,58 @@
+/* stepper.css */
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .stepperContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stepper {
+    display: flex;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+  }
+  
+  .step span {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .active .circle {
+    background-color: orange;
+    border-color: orange;
+  }
+  
+  .line {
+    height: 2px;
+    background-color: grey;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle.filled {
+    background-color: orange;
+    border-color: orange;
+  }
+  
+  .checkIcon {
+    color: white;
+  }
+  

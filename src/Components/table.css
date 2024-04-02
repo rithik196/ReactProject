@@ -1,0 +1,44 @@
+/* styles.css */
+.third-div
+{
+    width:80vw;
+    margin:3rem 0rem 0rem 8rem;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 34px;
+    border: 1px solid #e7e5e5;
+    width: 100%;
+    padding: 31px;
+  }
+
+  th{
+    font-weight: 500;
+    border-right: 1px solid #e7e5e5;
+    padding-bottom: 30px;
+  }
+  
+ 
+  
+  
+  td {
+    border-bottom: 1px solid #000; /* Add border lines between table rows */
+    font-weight: bold;
+    padding-left: 21px;
+    border-right: 1px solid #e7e5e5;
+  }
+  
+ 
+  
+  tbody tr:last-child td {
+    border-bottom: none; /* Remove border bottom for the last row */
+  }
+  
+  th:nth-child(4),td:nth-child(4){
+    border-right: none;
+    padding-left: 27px;
+    width: 7%;
+    display: flex;
+
+  }

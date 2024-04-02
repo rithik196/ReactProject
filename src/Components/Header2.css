@@ -1,0 +1,38 @@
+.outerdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 23px 70px 0px 128px;
+    background-color: #f1f1f1;
+}
+
+.innerdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cust{
+    margin-top: -8px;
+    margin-bottom: 13px;
+}
+
+span>span:nth-child(1){
+    font-size: 17px;
+    font-weight: 500;
+}
+span>span:nth-child(3){
+    font-size: 23px;
+    font-weight: 650;
+}
+
+.outerdiv>.innerdiv>span{
+    margin:19px 0px 0px 14px;
+}
+
+#root > div > div.outerdiv > div:nth-child(2) > span{
+    font-size: 17px;
+    font-weight: 500;
+}
+#root > div > div.outerdiv > div:nth-child(2){
+ margin-top: 25px;   
+}
